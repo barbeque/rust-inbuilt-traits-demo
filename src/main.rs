@@ -13,7 +13,7 @@ impl Double for i32 {
 }
 
 fn main() {
-    println!("Hello, world! {} {}", 36.double(), 36.wordify());
+    println!("Hello, world! 2x {} = {}", 36.wordify(), 36.double());
 }
 
 #[cfg(test)]
